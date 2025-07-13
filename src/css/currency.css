@@ -1,0 +1,62 @@
+.currency-div {
+  background-color: white;
+  border-radius: 12px;
+  padding: 30px 40px;
+  text-align: center;
+  width: 320px;
+}
+
+.currency-div h3 {
+  margin-top: 0;
+  font-size: 22px;
+  color: #6c63ff;               
+  font-weight: 700;            
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  text-shadow: 1px 1px 3px rgba(108, 99, 255, 0.7);
+}
+
+
+
+.amount, .result {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.from-currency-option, .to-currency-option {
+  width: 48%;
+  padding: 10px;
+  margin: 15px 1%;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+
+.btn.btn-primary {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn.btn-primary:hover {
+  background-color: #5a54d1;
+}
+
+
+.exchange-symbol {
+  font-size: 25px;
+  margin-right: 10px;
+  margin-top: 5px;
+  color: #6c63ff;
+}
