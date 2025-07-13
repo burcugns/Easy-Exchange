@@ -1,12 +1,43 @@
-# React + Vite
+# Easy Exchange
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and user-friendly **Easy Exchange** built with **React**, **CSS**, and **Axios**.  
+Convert amounts between over 30 world currencies using real‑time exchange rates from the FreeCurrencyAPI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Screenshot
 
-## Expanding the ESLint configuration
+<img src="screenshot.png" alt="Easy Exchange Screenshot" width="400" />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+-Convert between 30+ global currencies  
+-Real‑time exchange rates via FreeCurrencyAPI  
+-Input validation (only numeric amounts)  
+-Instantly swap “From” and “To” currencies  
+
+
+---
+
+## How It Works
+
+1. Enter a numeric **amount**.  
+2. Select a **From** currency and a **To** currency.  
+3. Click **EXCHANGE** (or press ↵).  
+4. The converted amount appears instantly.  
+5. Change inputs or currencies to recalculate.
+
+---
+
+##Technologies Used
+
+React (with Hooks) – UI logic & state management
+Axios – HTTP requests to FreeCurrencyAPI
+CSS3 – Styling, flex layout, hover/focus effects
+react-icons – Swap icon for smooth UX
+
+
+
+
