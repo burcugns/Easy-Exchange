@@ -31,12 +31,15 @@ Convert amounts between over 30 world currencies using real‑time exchange rate
 
 ---
 
-##Technologies Used
+## Technologies Used
 
-React (with Hooks) – UI logic & state management
-Axios – HTTP requests to FreeCurrencyAPI
-CSS3 – Styling, flex layout, hover/focus effects
-react-icons – Swap icon for smooth UX
+-React (with Hooks) – UI logic & state management
+
+-Axios – HTTP requests to FreeCurrencyAPI
+
+-CSS3 – Styling, flex layout, hover/focus effects
+
+-react-icons – Swap icon for smooth UX
 
 
 
